@@ -1,0 +1,129 @@
+html{
+	overflow-x:hidden;
+} 
+
+body{
+	color:rgb(250, 250, 250);
+}
+.menu-1{
+	height: 60px;
+	background: rgb(77, 77, 77);
+	width: 100vw;
+}
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 100vh;
+	text-align: center;
+}
+.slider-1{
+	background: #09705a;
+	width: 100vw;
+}
+.slider-2{
+	background: #b80d57;
+	width: 100vw;
+}
+.slider-3{
+	background: #e03e36;
+	width: 100vw;
+}
+.slider-4{
+	background: #ff7c38;
+	width: 100vw;
+}
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+	width: 100vw;
+}
+
+div{
+	display:block;
+}
+
+h4{
+	margin-top:70px;
+}
+
+/*flecha*/
+
+/*.color-black{
+	color:black;
+}
+
+.position{
+	float:right;
+	position:relative;
+	left:50%;
+	top:190px;
+	
+}
+
+@keyframes anim{
+	50%   {top:5px; bottom:2px;}
+	50%   {top:5px; bottom:2px;}
+}
+
+.anim{
+	animation-name:anim;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}*/
+
+
+/*fin de la flecha*/
+.about-me{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 990px;
+}
+
+.formulario{
+	margin-top:50px;
+	width: 50%;
+	background: transparent;
+	color:white;
+	box-shadow: none;
+	border:none;
+	outline:none;
+	font-size:18px;
+	border-bottom:2px solid #fff;
+	resize: none;
+	border-left: 2px solid #fff;
+}
+
+.formulario::placeholder{
+	color:white;
+	background-color: none;
+}
+
+textarea{
+	margin-top:30px;
+	width: 50%;
+	background: transparent;
+	color:white;
+	box-shadow: none;
+	border:none;
+	outline:none;
+	font-size:18px;
+	border-bottom:2px solid #fff;
+	border-left: 2px solid #fff;
+	resize: none;
+}
+
+.background-color-input{
+background-color:rgb(54, 54, 54) ;
+border-radius: 30px;
+width: 25vw;
+height: 50vh;
+position: relative;
+top:10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:1255px) {
+
+}
